@@ -4,10 +4,11 @@
 # RLAB-23-02-09-0044-2
 #
 
+# Librerias
 from abc import ABC, abstractmethod
 from error import SubTipoInvalidoError
 
-
+# Desarollo
 class Anuncio(ABC):
     
     def __init__(self, alto:int, ancho:int, url_archivo:str, url_clic:str, sub_tipo:str ):

@@ -4,8 +4,10 @@
 # RLAB-23-02-09-0044-2
 #
 
+# Librerias
 from datetime import date
 
+# Desarrollo
 class Campaña():
     
     def __init__(self, nombre:str, inicio:date, termino:date, anuncios:list):
